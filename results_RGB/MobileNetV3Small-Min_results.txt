@@ -1,0 +1,35 @@
+Confusion Matrix:
+[[534   0  24   1  17   0   1   4   9  19  16   2]
+ [  0 107   5   1   0   0   0   0   0   0   6   0]
+ [ 12   0 473   0   0   1   1  15  31   2  27   0]
+ [  2   0   2 109   0   0   0   2   0   0   3   0]
+ [  3   0   0   0  33   0   0   0   1   1   0   0]
+ [  1   0   0   0   0 205   0   0   0   0   0   0]
+ [  1   0   3   1   0   0 661  29   3  15   0   0]
+ [  4   0  20  13   1   0   3 861   7   0   2   0]
+ [  1   0  41   0   2   0   0  16 265   3   1   0]
+ [  4   0   2   0   1   1   2   3   4 110   0   0]
+ [  1   0   8   0   0   0   0   0   0   2  63   0]
+ [  0   1   5   0   6   0   3   7   1   2  12 192]]
+
+Classification Report:
+                           precision    recall  f1-score   support
+
+          APPENDICULARIAN       0.95      0.85      0.90       627
+     CHAETOCEROS_SUBTILIS       0.99      0.90      0.94       119
+                 COPEPODS       0.81      0.84      0.83       562
+                   DIATOM       0.87      0.92      0.90       118
+ DINOFLAGELLATES_CERATIUM       0.55      0.87      0.67        38
+DINOFLAGELLATES_NOCTILUCA       0.99      1.00      0.99       206
+ FILAMENTOUS_ALGAL_COLONY       0.99      0.93      0.96       713
+                    FLOCK       0.92      0.95      0.93       911
+                  NAUPLII       0.83      0.81      0.82       329
+    PHYTOPLANKTON_HELICAL       0.71      0.87      0.78       127
+          PLANKTON_LARVAE       0.48      0.85      0.62        74
+              RADIOLARIAN       0.99      0.84      0.91       229
+
+                 accuracy                           0.89      4053
+                macro avg       0.84      0.88      0.85      4053
+             weighted avg       0.90      0.89      0.89      4053
+
+Testing Time: 15.58 seconds
